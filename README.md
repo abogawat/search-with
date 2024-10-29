@@ -8,6 +8,12 @@ Search with... is a browser extension that allows users to easily search text fr
 - Simple popup UI with buttons for each search engine, plus corresponding keyboard shortcuts for easy access
 - Easily configurable and extensible to add more search engines
 
+## Todo
+- [ ] Add more default search engines
+- [ ] Add custom search engines
+- [ ] Allow enabling or disabling search engines
+- [ ] Release on the extension stores
+
 ## Installation
 1. Clone the repository:
   ```
