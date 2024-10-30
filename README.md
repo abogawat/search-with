@@ -33,11 +33,11 @@ Search with... is a browser extension that allows users to easily search text fr
 1. On any webpage, place your cursor in a search field containing the text you want to search for, or ensure there’s visible text in a search bar (even if not focused).
 2. Activate the extension using Alt+S.
 3. Choose a search engine by pressing the key associated with that engine:
-  - G - Google
-  - B - Bing
-  - D - DuckDuckGo
-  - P - Perplexity
-  - I - IMDB
+  - g - Google
+  - d - DuckDuckGo
+  - y - YouTube
+  - p - Perplexity
+  - i - IMDB
 
 The extension will open a new tab with the selected search engine and the term pre-filled in the search field.
 

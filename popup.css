@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  min-width: 150px;
+  min-width: 180px;
   padding: 10px;
 }
 
@@ -30,17 +30,40 @@ kbd {
 }
 
 .search-button {
+  display: flex;
+  gap: 8px;
   width: 100%;
-  padding: 8px;
-  font-size: 14px;
+  max-width: 240px;
+  padding: 8px 12px 6px 12px;
+  font-size: 1rem;
+  text-align: left;
   cursor: pointer;
-  background-color: #4285f4;
-  color: white;
-  border: none;
+  background-color: #eee;
+  color: #333;
+  border: 1px solid #eee;
+  border-bottom-width: 3px;
   border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.search-button.google {
+  color: #333;
+}
+.search-button.youtube {
+  color: #f00;
+}
+.search-button.duckduckgo {
+  color: #de5833;
+}
+.search-button.perplexity {
+  color: #3f7e8b;
+}
+.search-button.imdb {
+  color: #333;
 }
 
 .search-button:hover,
 .search-button:focus {
-  background-color: #357ae8;
+  background-color: #e6e6e6;
+  border-color: #ccc;
 }

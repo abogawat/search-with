@@ -36,8 +36,8 @@ function getSearchUrl(engine, query) {
   const encodedQuery = encodeURIComponent(query);
   switch (engine) {
     case "google": return `https://www.google.com/search?q=${encodedQuery}`;
-    case "bing": return `https://www.bing.com/search?q=${encodedQuery}`;
     case "duckduckgo": return `https://duckduckgo.com/?q=${encodedQuery}`;
+    case "youtube": return `https://www.youtube.com/results?search_query=${encodedQuery}`;
     case "perplexity": return `https://www.perplexity.ai/search?q=${encodedQuery}`;
     case "imdb": return `https://www.imdb.com/find?q=${encodedQuery}`;
     default: return `https://www.google.com/search?q=${encodedQuery}`;
