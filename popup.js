@@ -36,10 +36,12 @@ function getSearchUrl(engine, query) {
   const encodedQuery = encodeURIComponent(query);
   switch (engine) {
     case "google": return `https://www.google.com/search?q=${encodedQuery}`;
-    case "duckduckgo": return `https://duckduckgo.com/?q=${encodedQuery}`;
     case "youtube": return `https://www.youtube.com/results?search_query=${encodedQuery}`;
     case "perplexity": return `https://www.perplexity.ai/search?q=${encodedQuery}`;
+    case "reddit": return `https://www.reddit.com/search/?q=${encodedQuery}`;
+    case "amazon": return `https://www.amazon.in/s?k=${encodedQuery}`;
     case "imdb": return `https://www.imdb.com/find?q=${encodedQuery}`;
+    case "github": return `https://github.com/search?q=${encodedQuery}`;
     default: return `https://www.google.com/search?q=${encodedQuery}`;
   }
 }

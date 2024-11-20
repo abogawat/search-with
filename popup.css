@@ -46,7 +46,7 @@ kbd {
   transition: all 0.3s;
 }
 
-.search-button.google {
+/* .search-button.google {
   color: #333;
 }
 .search-button.youtube {
@@ -60,7 +60,7 @@ kbd {
 }
 .search-button.imdb {
   color: #333;
-}
+} */
 
 .search-button:hover,
 .search-button:focus {

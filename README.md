@@ -34,10 +34,12 @@ Search with... is a browser extension that allows users to easily search text fr
 2. Activate the extension using Alt+S.
 3. Choose a search engine by pressing the key associated with that engine:
   - g - Google
-  - d - DuckDuckGo
   - y - YouTube
   - p - Perplexity
+  - r - Reddit
+  - a - Amazon
   - i - IMDB
+  - t - Github
 
 The extension will open a new tab with the selected search engine and the term pre-filled in the search field.
 
